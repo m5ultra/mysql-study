@@ -37,4 +37,8 @@ insert into stuinfo (id, name) values (1, 'john');
 insert into stuinfo (id, name) values (2,  'rose');
 
 insert into stuinfo (id, name) values (3,  'rose');
+
+select * from stuinfo;
+
+update stuinfo set name='lilei' where id = 1;
 ```
