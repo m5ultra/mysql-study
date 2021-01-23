@@ -41,4 +41,6 @@ insert into stuinfo (id, name) values (3,  'rose');
 select * from stuinfo;
 
 update stuinfo set name='lilei' where id = 1;
+
+delete from stuinfo where id =1;
 ```
