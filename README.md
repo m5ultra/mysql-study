@@ -16,7 +16,17 @@ show dadabase;
 
 use test; // 使用test 
 
-use tables; 
+show tables; 
 
+show tables from mysql;  // 查表
 
+select database();  查询当前使用的数据库
+
+create table stuinfo(
+  id int,
+  name varchar(20)
+);
+show tables; // 查看当前数据库下的表
+
+desc stuinfo;  //查看表结构
 ```
