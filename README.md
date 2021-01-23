@@ -10,3 +10,13 @@
 mysql [-h 127.0.0.1 -P 3306] -u root -p  // 直接回车 敲密码 或者直接在 -p后加密码
 exit // 退出
 ```
+### mysql的常用命令
+```
+show dadabase; 
+
+use test; // 使用test 
+
+use tables; 
+
+
+```
