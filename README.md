@@ -2,8 +2,19 @@
 ### mysql安装
 
 ### 数据库启动 停止
-`net stop mysql0815`
-`net start mysql0815`
+```
+启动MySQL服务
+sudo /usr/local/MySQL/support-files/mysql.server start
+
+停止MySQL服务
+sudo /usr/local/mysql/support-files/mysql.server stop
+
+重启MySQL服务
+sudo /usr/local/mysql/support-files/mysql.server restart
+
+alias mysql=/usr/local/mysql/bin/mysql
+alias mysqladmin=/usr/local/mysql/bin/mysqladmin
+```
 
 ### mysql 服务的登录和退出
 ```
