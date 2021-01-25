@@ -15,6 +15,9 @@ sudo /usr/local/mysql/support-files/mysql.server restart
 // .zshrc文件中
 alias mysql=/usr/local/mysql/bin/mysql
 alias mysqladmin=/usr/local/mysql/bin/mysqladmin
+
+mysql -V
+mysql --version
 ```
 
 ### mysql 服务的登录和退出
@@ -57,5 +60,7 @@ update stuinfo set name='lilei' where id = 1;
 // 从stuinfo中删除 id = 1的那条数据
 delete from stuinfo where id =1;
 
+// 查看数据库版本
+select version();
 
 ```
