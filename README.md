@@ -62,12 +62,17 @@ delete from stuinfo where id =1;
 
 // 查看数据库版本
 select version();
-
-### SQL语言
-#### DQL Data Query Language 针对查询
+```
+## SQL语言
+### DQL Data Query Language 针对查询
+#### 进阶1. 基础查询
+> 查询列表可以是, 表中的字段 常亮值, 表达式 函数.
+```
+select 查询列表 from 表名;
+SELECT last_name FORM employees;
+SELECT last_name, salary, email FORM employees;
+SELECT * FROM employees;
+```
 #### DML 数据操纵语言 (Data manipulation language) 增删改
 #### DDL Data Define Language
 #### TCL (Transaction Control Language) 事务控制语言
-### 进阶1. 基础查询
-
-```
