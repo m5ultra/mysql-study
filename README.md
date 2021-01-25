@@ -122,6 +122,7 @@ SELECT DISTINCT department_id FORM employees;
 
 ```
 SELECT * FROM employees WHERE salary > 12000;
+SELECT * last_name, depeartment_id FROM  employees WHERE department_id!=90; 
 ```
 
 > - 2.按条件运算符查询
