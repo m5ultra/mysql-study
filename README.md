@@ -97,6 +97,11 @@ SELECT last_name As 姓, first_name AS 名 FORM employees;
 SELECT last_name  姓, first_name  名 FORM employees; // 用空格
 SELECT salary AS "out_put" FROM employees;
 ```
+// 去重 DISTINCT
+```
+SELECT DISTINCT department_id FORM employees;
+```
+
 #### DML 数据操纵语言 (Data manipulation language) 增删改
 #### DDL Data Define Language
 #### TCL (Transaction Control Language) 事务控制语言
