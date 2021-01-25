@@ -92,8 +92,10 @@ SELECT VERSION();
 
 // 起别名
 ```
-SELECT 100 * 98 AS 结果
+SELECT 100 * 98 AS 结果 // 使用AS关键字起别名
 SELECT last_name As 姓, first_name AS 名 FORM employees;
+SELECT last_name  姓, first_name  名 FORM employees; // 用空格
+SELECT salary AS "out_put" FROM employees;
 ```
 #### DML 数据操纵语言 (Data manipulation language) 增删改
 #### DDL Data Define Language
