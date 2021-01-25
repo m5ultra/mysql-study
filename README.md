@@ -126,7 +126,13 @@ SELECT * last_name, depeartment_id FROM  employees WHERE department_id<>90;
 ```
 
 > - 2.按条件运算符查询
-> && || ! not or and
+> &&(并且 和 and相同效果) ||(或 和 or 相同) !(取反 和 not 相同) not or and
+
+```
+SELECT last_name, salary, commission_pct FROM employees WHEER salary > 20000  && salary < 10000;
+SELECT * FROM employees department_id > 20000  && salary < 10000;
+SELECT * FROM employees WHERE !(department_id > 90 and department_id < 120) || salary > 10000;
+```
 > - 3.模糊查询
 > like between and in is null
 #### DML 数据操纵语言 (Data manipulation language) 增删改
