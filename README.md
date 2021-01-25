@@ -135,8 +135,8 @@ SELECT * FROM employees WHERE !(department_id > 90 and department_id < 120) || s
 ```
 > - 3.模糊查询
 > like between and in is null
-> 一般和通配符搭配使用
-
+> 一般和通配符搭配使用 % 任意多个字符 [0, ∞)
+> '_' 任意单个字符
 ```
 SELECT * FROM employees WHERE last_name like '%a%'; // 搜索last_name中包含 'a'
 ```
