@@ -134,7 +134,7 @@ SELECT * FROM employees department_id > 20000  && salary < 10000;
 SELECT * FROM employees WHERE !(department_id > 90 and department_id < 120) || salary > 10000;
 ```
 > - 3.模糊查询
-> like (between and) in is null
+> like,  between... and... in , is null
 
 > 一般和通配符搭配使用 % 任意多个字符 [0, ∞)
 
@@ -149,6 +149,7 @@ SELECT * FROM employees WHERE employee_id between 100 and 120; // 1.包含临界
 SELECT * FROM employees WHERE employee_id >= 100 and  employee_id <= 120;
 SELECT last_name FROM employees WHERE job_id = 'IT_PROG' OR job_id = 'AG_PV' OR job_id = 'AG_PROC';
 SELECT last_name FROM employees WHERE job_id IN('IT_PROG','AG_VP', AG_PROC); // 1.in关键字 判断某字段的值 是否在IN列表中 2.提高语句简洁度
+SELECT * FROM employees WHERE commission_pct IS NULL; // IS NOT NULL
 ```
 
 #### DML 数据操纵语言 (Data manipulation language) 增删改
