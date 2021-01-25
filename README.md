@@ -135,6 +135,11 @@ SELECT * FROM employees WHERE !(department_id > 90 and department_id < 120) || s
 ```
 > - 3.模糊查询
 > like between and in is null
+> 一般和通配符搭配使用
+
+```
+SELECT * FROM employees WHERE last_name like '%a%'; // 搜索last_name中包含 'a'
+```
 #### DML 数据操纵语言 (Data manipulation language) 增删改
 #### DDL Data Define Language
 #### TCL (Transaction Control Language) 事务控制语言
