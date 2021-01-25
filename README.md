@@ -145,7 +145,7 @@ SELECT * FROM employees WHERE last_name like '%a%'; // 搜索last_name中包含 
 SELECT * FROM employees WHERE like '__n_l%' // 第三个为n 第5个为l的
 SELECT * FROM employees WHERE like '_\_%' // 第二个字符是_的
 SELECT * FROM employees WHERE like '_$_%' ESCAPE '$' // 第二个字符是_的 指定$为通配符
-SELECT * FROM employees WHERE employee_id between 100 and 120;
+SELECT * FROM employees WHERE employee_id between 100 and 120; // 1.包含临界值
 SELECT * FROM employees WHERE employee_id >= 100 and  employee_id <= 120;
 ```
 
