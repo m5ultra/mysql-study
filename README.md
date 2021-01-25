@@ -101,6 +101,11 @@ SELECT salary AS "out_put" FROM employees;
 ```
 SELECT DISTINCT department_id FORM employees;
 ```
+// +号的作用
+
+```
+  SELECT last_name + first_name AS 姓名 from employees;
+```
 
 #### DML 数据操纵语言 (Data manipulation language) 增删改
 #### DDL Data Define Language
