@@ -110,7 +110,8 @@ SELECT DISTINCT department_id FORM employees;
   SELECT 10 + '20' // => 30
   SELECT 'john' + 20 // => 20
   SELECT null + 90 // => null
-  SELECT last_name + first_name AS 姓名 from employees;
+  SELECT last_name + first_name AS 姓名 from employees; // => 0
+  SELECT CANCAT(last_name, first_name) AS 姓名 from employees
 ```
 
 #### DML 数据操纵语言 (Data manipulation language) 增删改
