@@ -114,7 +114,20 @@ SELECT DISTINCT department_id FORM employees;
   SELECT CANCAT(last_name, first_name) AS 姓名 from employees
   SELECT CANCAT(last_name, first_name, IFNULL(commission_pct, 0) ) AS 姓名 from employees; // IFNULL 函数使用
 ```
+#### 条件查询
 
+> 语法: SELECT 查询列表 FROM 表名 WHERE 筛选条件
+> - 1.按条件表达式筛选
+> 条件运算符 > < = != <> >= <=
+
+```
+SELECT * FROM employees WHERE salary > 12000;
+```
+
+> - 2.按条件运算符查询
+> && || ! not or and
+> - 3.模糊查询
+> like between and in is null
 #### DML 数据操纵语言 (Data manipulation language) 增删改
 #### DDL Data Define Language
 #### TCL (Transaction Control Language) 事务控制语言
