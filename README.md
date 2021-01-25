@@ -112,7 +112,7 @@ SELECT DISTINCT department_id FORM employees;
   SELECT null + 90 // => null
   SELECT last_name + first_name AS 姓名 from employees; // => 0
   SELECT CANCAT(last_name, first_name) AS 姓名 from employees
-  SELECT CANCAT(last_name, first_name, IFNULL(commission_pct, 0) ) AS 姓名 from employees
+  SELECT CANCAT(last_name, first_name, IFNULL(commission_pct, 0) ) AS 姓名 from employees; // IFNULL 函数使用
 ```
 
 #### DML 数据操纵语言 (Data manipulation language) 增删改
