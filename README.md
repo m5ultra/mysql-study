@@ -103,7 +103,13 @@ SELECT DISTINCT department_id FORM employees;
 ```
 // +号的作用
 
+>  + 在sql语句中只能做运算符, 1. 全是数字,相加 2. 一方为数字 一方为字符串 试图将字符串转为数值型 如果转换成功, 继续做加法运算 3.如果转换失败, 会将字符串转换为0 再做加法运算 4. 其中一个为null, 结果一定为null
+
 ```
+  SELECT 10 + 20; // => 30;
+  SELECT 10 + '20' // => 30
+  SELECT 'john' + 20 // => 20
+  SELECT null + 90 // => null
   SELECT last_name + first_name AS 姓名 from employees;
 ```
 
