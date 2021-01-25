@@ -68,10 +68,11 @@ select version();
 #### 进阶1. 基础查询
 > 查询列表可以是, 表中的字段 常亮值, 表达式 函数.
 ```
+use employees; // 记住加上这句 使用哪个库
 select 查询列表 from 表名;
-SELECT last_name FORM employees;
-SELECT last_name, salary, email FORM employees;
-SELECT * FROM employees;
+SELECT last_name FORM employees; // 查询单个字段
+SELECT last_name, salary, email FORM employees; // 查询多个字段 用',' 分割
+SELECT * FROM employees; // 查询所有字段
 ```
 #### DML 数据操纵语言 (Data manipulation language) 增删改
 #### DDL Data Define Language
