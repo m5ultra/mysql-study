@@ -148,7 +148,7 @@ SELECT * FROM employees WHERE like '_$_%' ESCAPE '$' // 第二个字符是_的 �
 SELECT * FROM employees WHERE employee_id between 100 and 120; // 1.包含临界值
 SELECT * FROM employees WHERE employee_id >= 100 and  employee_id <= 120;
 SELECT last_name FROM employees WHERE job_id = 'IT_PROG' OR job_id = 'AG_PV' OR job_id = 'AG_PROC';
-SELECT last_name FROM employees WHERE job_id IN('IT_PROG','AG_VP', AG_PROC);
+SELECT last_name FROM employees WHERE job_id IN('IT_PROG','AG_VP', AG_PROC); // 1.in关键字 判断某字段的值 是否在IN列表中 2.提高语句简洁度
 ```
 
 #### DML 数据操纵语言 (Data manipulation language) 增删改
