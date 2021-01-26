@@ -194,7 +194,13 @@ SHOW VARIABLES LIKE '%char%'
 ```
 ### 常见函数的学习
 > 进阶4 常见函数
-- 
+- length()
+- cancat()
+- upper() 
+- lower()
+- supstr()  substring() // 截取字符串
+- instr() // 返回其实索引
+- trim() 
 ```
 
 ```
