@@ -186,6 +186,7 @@ SELECT * FROM employees order by salary asc; // 升序  不写 asc 默认是升�
 SELECT * FROM employees WHERE department_id >= 90 ORDER BY hiredate ASC; 
 SELECT  *, salary * 12 * (1 + IFNULL(commission_pct, 0)) AS total_salary FORM employees ORDER BY total_salary DESC;
 SELECT  *, salary * 12 * (1 + IFNULL(commission_pct, 0)) AS total_salary FORM employees ORDER BY  salary * 12 * (1 + IFNULL(commission_pct, 0)) DESC;
+SELECT last_name, salary FROM employees ORDER BY LENGTH(last_name) 
 ```
 
 #### DML 数据操纵语言 (Data manipulation language) 增删改
