@@ -154,6 +154,36 @@ SELECT * FROM employees WHERE commission_pct IS NULL; // IS NOT NULL tips: = <> 
 SLEECT * FROM employees WHERE commission_pct <=> NULL;
 SLEECT * FROM employees WHERE salary <=> 12000;
 ```
+> 练习:
+
+```
+  SELECT 
+    salary, last_name
+  FORM
+  employees 
+  WHERE 
+   commission_pct is null 
+   and salary < 18000;
+   
+     SELECT 
+    *
+  FORM
+    employees 
+  WHERE 
+   job_id <> 'IT' 
+   or salary=12000;
+   
+   desc department;
+ 
+  SELECT distinct location_id FROM department;
+```
+
+### 排序 order by
+> 进阶3: 排序查询
+```
+SELECT * FROM employees order by salary desc; // 
+SELECT * FROM employees order by salary asc; // 
+```
 
 #### DML 数据操纵语言 (Data manipulation language) 增删改
 #### DDL Data Define Language
