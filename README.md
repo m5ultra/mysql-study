@@ -181,8 +181,9 @@ SLEECT * FROM employees WHERE salary <=> 12000;
 ### 排序 order by
 > 进阶3: 排序查询
 ```
-SELECT * FROM employees order by salary desc; // 
-SELECT * FROM employees order by salary asc; // 
+SELECT * FROM employees order by salary desc; // 降序
+SELECT * FROM employees order by salary asc; // 升序  不写 asc 默认是升序
+
 ```
 
 #### DML 数据操纵语言 (Data manipulation language) 增删改
