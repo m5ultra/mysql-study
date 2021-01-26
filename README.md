@@ -227,6 +227,7 @@ SHOW VARIABLES LIKE '%char%'
 ```
 SELECT IF(10>5, '大', '小') //  => 大
 SELECT IF(10<5, '大', '小') //  => 小
+SELECT last_name, commission_pct, IF(commission_pct IS NULL, '没奖金, 呵呵', '有奖金, 嘻嘻') AS 备注;
 ```
  
 #### DML 数据操纵语言 (Data manipulation language) 增删改
