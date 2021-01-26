@@ -201,8 +201,8 @@ SHOW VARIABLES LIKE '%char%'
 - supstr()  substring() // 截取字符串
 - instr() // 返回其实索引
 - trim() 
+- lpad()
 ```
-
 ```
 
 #### DML 数据操纵语言 (Data manipulation language) 增删改
