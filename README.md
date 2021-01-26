@@ -183,7 +183,8 @@ SLEECT * FROM employees WHERE salary <=> 12000;
 ```
 SELECT * FROM employees order by salary desc; // 降序
 SELECT * FROM employees order by salary asc; // 升序  不写 asc 默认是升序
-
+SELECT * FROM employees WHERE department_id >= 90 ORDER BY hiredate ASC; 
+SELECT  *, salary * 12 * IFNULL(commission_pct, 0) AS total_salary FORM employees ORDER BY total_salary desc;
 ```
 
 #### DML 数据操纵语言 (Data manipulation language) 增删改
