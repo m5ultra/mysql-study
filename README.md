@@ -208,7 +208,7 @@ SHOW VARIABLES LIKE '%char%'
 - round() // 四舍五入
 - ceil // 向上取整
 - floor // 向下取整
-- truncate
+- truncate() 截取小数位数
 - mod() // 取余
 ```
 ```
