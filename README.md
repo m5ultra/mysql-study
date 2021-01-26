@@ -1,4 +1,4 @@
-# mysql-study  mysql-study
+# mysql-study
 ### mysql安装
 
 ### 数据库启动 停止
