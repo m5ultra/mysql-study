@@ -216,6 +216,13 @@ SHOW VARIABLES LIKE '%char%'
 - curtime()
 - year()
 - month()
+- str_to_date()
+- data_formate()
+> 其他函数
+ - version()
+ - database()
+ - user()
+ 
 #### DML 数据操纵语言 (Data manipulation language) 增删改
 #### DDL Data Define Language
 #### TCL (Transaction Control Language) 事务控制语言
