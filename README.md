@@ -188,7 +188,6 @@ SELECT  *, salary * 12 * (1 + IFNULL(commission_pct, 0)) AS total_salary FORM em
 SELECT  *, salary * 12 * (1 + IFNULL(commission_pct, 0)) AS total_salary FORM employees ORDER BY  salary * 12 * (1 + IFNULL(commission_pct, 0)) DESC;
 SELECT last_name, salary FROM employees ORDER BY LENGTH(last_name);
 SELECT * FORM employees ORDER BY salary ASC,  employees_id DESC; 
-
 ```
 
 #### DML 数据操纵语言 (Data manipulation language) 增删改
