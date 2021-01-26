@@ -202,6 +202,8 @@ SHOW VARIABLES LIKE '%char%'
 - instr() // 返回其实索引
 - trim() 
 - lpad()
+- rpad()
+- replace()
 ```
 ```
 
