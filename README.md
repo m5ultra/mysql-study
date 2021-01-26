@@ -210,9 +210,12 @@ SHOW VARIABLES LIKE '%char%'
 - floor // 向下取整
 - truncate() 截取小数位数
 - mod() // 取余
-```
-```
-
+> 日期函数
+- now()
+- curdate()
+- curtime()
+- year()
+- month()
 #### DML 数据操纵语言 (Data manipulation language) 增删改
 #### DDL Data Define Language
 #### TCL (Transaction Control Language) 事务控制语言
