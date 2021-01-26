@@ -222,6 +222,12 @@ SHOW VARIABLES LIKE '%char%'
  - version()
  - database()
  - user()
+> 流程控制函数
+- if()
+```
+SELECT IF(10>5, '大', '小') //  => 大
+SELECT IF(10<5, '大', '小') //  => 小
+```
  
 #### DML 数据操纵语言 (Data manipulation language) 增删改
 #### DDL Data Define Language
