@@ -193,7 +193,7 @@ SHOW VARIABLES LIKE '%char%'
 // 字符集是utf-8 一个汉字占三个字节 jbk字符集占 2个字节
 ```
 ### 常见函数的学习
-> 进阶4 常见函数
+> 进阶4 常见函数 - 字符函数
 - length()
 - cancat()
 - upper() 
@@ -204,6 +204,12 @@ SHOW VARIABLES LIKE '%char%'
 - lpad()
 - rpad()
 - replace()
+> 数学函数
+- round() // 四舍五入
+- ceil // 向上取整
+- floor // 向下取整
+- truncate
+- mod() // 取余
 ```
 ```
 
